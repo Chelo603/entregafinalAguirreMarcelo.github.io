@@ -1,0 +1,44 @@
+// barra de navegacion//
+.navbar {
+   
+    background:$grandients1;
+    background:$grandients2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    margin-left: 2rem;
+    justify-content: space-around;
+  }
+  .navbar li {
+    display: inline-block;
+    position: relative;
+    margin: 1rem;
+    font-size: 1.4rem;
+    margin: 10px 20px;
+  }
+  
+  .navbar ul ul {
+    position: absolute;
+    display: none;
+  }
+  .navbar ul ul li {
+    display: block;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    color: red;
+    font-weight: bold;
+  }
+  ul li:hover ul {
+    display: block;
+  }
+ 
+  
